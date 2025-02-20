@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted } from 'vue';
-import AddTransaction from './components/addTransaction.vue'
+import AddTransaction from './components/AddTransaction.vue'
 import TransactionList from './components/TransactionList.vue';
 
 const transactions = ref([]);
